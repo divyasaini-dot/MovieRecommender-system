@@ -3,8 +3,7 @@ import pickle
 import pandas as pd
 import ast
 import joblib
-
-OMDB_API_KEY = st.secrets[16336354]
+OMDB_API_KEY = st.secrets["OMDB_API_KEY"]
 import requests
 
 def fetch_movie_details(movie_title):
